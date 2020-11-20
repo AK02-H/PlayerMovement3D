@@ -1,10 +1,11 @@
-﻿///RPG Level-Up 'Stat Curve' Growth System
+///Simple 3D Character Controller
 ///By Amin 'A.K' Khan
 ///
 ///A simple 3D character controller 
 ///Includes jumping (with a max jump counter for multiple air jumps), seperate speeds for different movement directions and camera rotation, and clamps for vertical rotation.
 ///Speed values and jump buttons can be set from the inspector
-///Requires a camera object to be a child of the player object, and an empty transform child to act as the position for the ground checl
+///Requires: a camera object to be a child of the player object; an empty transform child to act as the position for the ground check; ground objects to be marked with a 'ground' layer, that must also be set in the inspector for this script
+///Press ESC to unlock the cursor during playmode
 
 using System.Collections;
 using System.Collections.Generic;
